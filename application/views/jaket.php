@@ -1,5 +1,5 @@
     <!-- GAMBAR SLIDER -->
-<div class="container-fluid">
+    <div class="container-fluid">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -28,7 +28,7 @@
         </div> 
     <!-- GAMBAR PRODUK -->
     <div class="row text-center mt-4">
-        <?php foreach ($barang as $brg) : ?>
+        <?php foreach ($jaket as $brg) : ?>
 
             <div class="card ml-3" style="width: 17rem;">
                 <img src="<?php echo base_url().'/uploads/'.$brg->gambar ?>" class="card-img-top" height="300">

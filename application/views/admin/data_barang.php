@@ -52,10 +52,19 @@
                 <label>Keterangan</label>
                 <input type="text" name="keterangan" id="" class="form-control">
             </div>
+
             <div class="form-group">
-                <label>kategori</label>
-                <input type="text" name="kategori" id="" class="form-control">
+                <label>Kategori</label>
+                <!-- <input type="text" name="kategori" id="" class="form-control"> -->
+                <select class="form-control" name="kategori">
+                  <option >Software</option>
+                  <option >Baju</option>
+                  <option >Celana</option>
+                  <option >Sepatu</option>
+                  <option >Jaket</option>
+                </select>
             </div>
+
             <div class="form-group">
                 <label>Harga</label>
                 <input type="text" name="harga" id="" class="form-control">
